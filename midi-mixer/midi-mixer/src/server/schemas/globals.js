@@ -32,12 +32,12 @@ export const globalsSchema = {
   },
   oscSendPort: {
     type: 'integer',
-    default: 3334,
+    default: 4002,
     nullable: false,
   },
   oscReceivePort: {
     type: 'integer',
-    default: 3333,
+    default: 4001,
     nullable: false,
   }
 };
